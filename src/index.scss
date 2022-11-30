@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Satoshi Light";
+  src: url('./assets/fonts/Satoshi-Light.otf');
+}
+@font-face {
+  font-family: "Satoshi Regular";
+  src: url('./assets/fonts/Satoshi-Regular.otf');
+}
+@font-face {
+  font-family: "Satoshi Medium";
+  src: url('./assets/fonts/Satoshi-Medium.otf');
+}
+@font-face {
+  font-family: "Satoshi Bold";
+  src: url('./assets/fonts/Satoshi-Bold.otf');
+}
+@font-face {
+  font-family: "Satoshi Black";
+  src: url('./assets/fonts/Satoshi-Black.otf');
+}
+
+$font-satoshi-light:"Satoshi Light";
+$font-satoshi-regular:"Satoshi Regular";
+$font-satoshi-medium:"Satoshi Medium";
+$font-satoshi-bold:"Satoshi Bold";
+$font-satoshi-black:"Satoshi Black";
+
+$color-gray-800:#0D0D0D;
+$color-gray-700:#474747;
+$color-gray-600:#5E5E5E;
+$color-gray-500:#878787;
+$color-gray-400:#AAAAAA;
+$color-gray-300:#DADADA;
+$color-gray-200:#F8F8F8;
+$color-gray-100:#FFFFFF;
+$color-blue-400:#086CD9;
+$color-blue-300:#1D88FE;
+$color-blue-200:#8FC3FF;
+$color-blue-100:#EAF4FF;
+$color-green-400:#11845B;
+$color-green-300:#05C168;
+$color-green-200:#7FDCA4;
+$color-green-100:#DEF2E6;
+$color-red-400:#DC2B2B;
+$color-red-300:#FF5A65;
+$color-red-200:#FFBEC2;
+$color-red-100:#FFEFF0;
+$color-orange-400:#D5691B;
+$color-orange-300:#FF9E2C;
+$color-orange-200:#FFD19B;
+$color-orange-100:#FFF3E4;
+
+* {
+  font-family: $font-satoshi-medium;
+}
